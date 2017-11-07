@@ -38,7 +38,7 @@ resource "aws_vpn_gateway_route_propagation" "example" {
 
 resource "aws_customer_gateway" "my_customer_gateway" {
   bgp_asn    = 64601
-  ip_address = "198.105.16.5"
+  ip_address = "1.1.1.1"
   type       = "ipsec.1"
 }
 
